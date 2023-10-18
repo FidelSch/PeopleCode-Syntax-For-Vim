@@ -57,7 +57,7 @@ syn match pplTest "\sP\-A\s"
 syn match pplTest "^\%[\s]\+end\-if\>"
 
 
-syn region pplRegion start="\sthen\s" end="^\%[\s]\+end\-if\>" fold  transparent contains=pplVariable
+syn region pplRegion start="\sthen\s" end="^\%[\s]\+end\-if\>" fold  transparent contains=pplVariable 
 
 "System Variables
 "syn match pplSystemVariable '\(%DateTime\> \| %Date\>\)' 
