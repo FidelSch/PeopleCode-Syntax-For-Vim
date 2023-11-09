@@ -2,12 +2,22 @@
 This is and independent proyect, but PRs are welcome!
 
 ## Installation
-Clone the repository, and copy `syntax/people.vim` to your `~/.vim/syntax` folder.<br>
-Also copy everything under `autoload/` to your `~/.vim/autoload` folder.<br>
+### As a plugin (Recommended)
+Now compatible with the plugin manager of your choice!<br>
+Recommended: [vim-plug](https://github.com/junegunn/vim-plug)
 
-Lastly, add the following to your .vimrc file:
-```vim
-au BufRead,BufNewFile *.ppl set filetype=people
+### Manually
+First, clone the repository to an empty directory on your machine:<br>
+```sh
+git init && git pull https://github.com/FidelSch/PeopleCode-Syntax-For-Vim.git 
 ```
+
+Then, copy the files under each directory to `~/.vim/<folder-name>`<br>
+You may have to create them if they don't exist.
+```sh
+mkdir ~/.vim/syntax
+cp Peoplecode-Syntax-For-Vim/syntax/* ~/.vim/syntax/
+```
+
 The next time you open a .ppl file, it should be highlighted accordingly.<br>
 Happy coding!
