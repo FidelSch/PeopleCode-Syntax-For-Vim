@@ -9,6 +9,8 @@ Recommended: [vim-plug](https://github.com/junegunn/vim-plug)
 ### Manually
 First, clone the repository to an empty directory on your machine:<br>
 ```sh
+mkdir Peoplecode-Syntax-For-Vim
+cd Peoplecode-Syntax-For-Vim
 git init && git pull https://github.com/FidelSch/PeopleCode-Syntax-For-Vim.git 
 ```
 
