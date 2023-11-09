@@ -1,0 +1,1 @@
+autocmd BufNewFile,BufRead *.ppl set filetype=people
