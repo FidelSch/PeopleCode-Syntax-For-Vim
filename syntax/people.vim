@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: PeopleCode
-" Maintainer: Fidel Honorato
-" Latest Revision: 3/11/2023
+" Maintainer: Fidel Honorato Schinelli
+" Latest Revision: 9/11/2023
 
 if exists("b:current_syntax")
 	finish
@@ -10,7 +10,6 @@ endif
 syntax case ignore
 
 "Keyword definitions, moved for brevity
-"Saved in 'runtimepath'/autoload/pplKeywords
 call pplKeywords#setPplBuiltinFunctions()
 call pplKeywords#setPplSystemVariables()
 
