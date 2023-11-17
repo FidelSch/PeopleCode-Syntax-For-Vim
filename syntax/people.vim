@@ -32,10 +32,10 @@ syn match pplStatement "^\%[\s]\+evaluate\s" contained
 syn match pplStatement "^\%[\s]\+return\%[s]\s" contained
 
 "Regions
-syn region pplFunction start="^\%[\s]\+function\s" end="^\%[\s]\+end\-function\>" fold transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplScope,pplType,pplObject,pplRecordFunction,pplBuiltinFunction,pplSystemVariable
-syn region pplIf start="^\%[\s]\+if\s" end="^\%[\s]\+end\-if\>" fold  transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable
-syn region pplFor start="^\%[\s]\+for\s" end="^\%[\s]\+end\-for\>" fold  transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable
-syn region pplEvaluate start="^\%[\s]\+evaluate\s" end="^\%[\s]\+end\-evaluate\>" fold transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable
+syn region pplFunction start="^\%[\s]\+function\s" end="^\%[\s]\+end\-function\>" fold transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplScope,pplType,pplObject,pplRecordFunction,pplBuiltinFunction,pplSystemVariable,pplComment,pplString
+syn region pplIf start="^\%[\s]\+if\s" end="^\%[\s]\+end\-if\>" fold  transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable,pplString
+syn region pplFor start="^\%[\s]\+for\s" end="^\%[\s]\+end\-for\>" fold  transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable,pplString
+syn region pplEvaluate start="^\%[\s]\+evaluate\s" end="^\%[\s]\+end\-evaluate\>" fold transparent contains=pplFor,pplVariable,pplIf,pplStatement,pplEvaluate,pplBuiltinFunction,pplSystemVariable,pplString
 
 syn region pplString start="'" end="'"
 syn region pplString start=+"+ end=+"+
