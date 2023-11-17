@@ -10,8 +10,8 @@ endif
 syntax case ignore
 
 "Keyword definitions, moved for brevity
-"call pplKeywords#setPplBuiltinFunctions()
-call pplKeywords#setPplSystemVariables()
+call pplBuiltinFunctions#setBuiltinFunctions()
+call pplSystemVariables#setPplSystemVariables()
 
 syn keyword pplRecordFunction SelectByKey SelectByKeyEffdt contained
 
