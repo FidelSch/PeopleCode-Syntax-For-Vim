@@ -10,7 +10,7 @@ endif
 syntax case ignore
 
 "Keyword definitions, moved for brevity
-call pplKeywords#setPplBuiltinFunctions()
+"call pplKeywords#setPplBuiltinFunctions()
 call pplKeywords#setPplSystemVariables()
 
 syn keyword pplRecordFunction SelectByKey SelectByKeyEffdt contained
@@ -53,10 +53,10 @@ hi def link pplType			Type
 hi def link pplObject			Type 
 hi def link pplVariable			Identifier
 hi def link pplStatement		Statement
-hi def link pplScope  		        Statement
+hi def link pplScope  		      Statement
 hi def link pplComment			Comment
-hi def link pplBuiltinFunction		Function
-hi def link pplRecordFunction	        Function
+hi def link pplBuiltinFunction	Function
+hi def link pplRecordFunction	      Function
 hi def link pplSystemVariable		Special
 
 "TO BE REMOVED EVENTUALLY
