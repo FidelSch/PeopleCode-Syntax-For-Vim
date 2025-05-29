@@ -30,6 +30,7 @@ syn match pplStatement "^\%[\s]\+if\s"          contained
 syn match pplStatement "^\%[\s]\+else\s"        contained
 syn match pplStatement "^\%[\s]\+while\s"       contained
 syn match pplStatement "^\%[\s]\+evaluate\s"    contained
+syn match pplStatement "^\%[\s]\+when\s"        contained
 syn match pplStatement "^\%[\s]\+return\%[s]\s" contained
 
 "Regions
