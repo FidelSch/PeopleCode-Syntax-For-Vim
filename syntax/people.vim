@@ -41,7 +41,7 @@ syn region pplEvaluate start="^\%[\s]\+evaluate\s" end="^\%[\s]\+end\-evaluate\>
 syn region pplString  start="'"     end="'"
 syn region pplString  start=+"+     end=+"+
 syn region pplComment start=+/\*+   end=+\*/+ fold 
-syn region pplComment start='/\+'   end='\+/'
+syn region pplComment start="/+"   end="+/"
 syn region pplComment start="rem\s" end=";" 
 
 
